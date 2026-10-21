@@ -3,8 +3,8 @@ const maiNav = document.querySelector('#main-nav')
 
 menuToggle.addEventListener('click', ()=> {
     console.log('clicked')
-    maiNav.classList.toggle('active')
-    if (maiNav.classList.contains('active')) {
+    maiNav.classList.toggle('nav-active')
+    if (maiNav.classList.contains('nav-active')) {
         menuToggle.setAttribute('aria-label', 'Close navigation menu');
     }
     else {
