@@ -305,10 +305,10 @@ main {
 .section-heading p {
     margin-bottom: 10px;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #6b7280;
+    color: #45464a;
 }
 
 .section-heading h2 {
@@ -320,7 +320,7 @@ main {
 
 .section-heading span {
     display: block;
-    color: #7d828c;
+    color: #252525;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -336,26 +336,25 @@ main {
 .skill-card {
     min-height: 140px;
     padding: 24px 16px;
-    border: 1px solid #ddd;
     border-radius: 12px;
-
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 14px;
-
+    
     background: #ffffff;
-    border: 1px solid #e5e7eb;
+    border: 1px solid #9e9e9e;
 
-    transition: transform 0.2s ease, 
+    transition: transform 0.3s ease,
                 border-color 0.2s ease;
 }
 
 
 .skill-card:hover {
-    transform: translateY(-4px);
-    border-color: #9ca3af;
+    transform: translateY(-5px);
+    border-color: #525457;
 }
 
 
@@ -520,9 +519,9 @@ main {
 .project-tech span {
     padding: 5px 8px;
     border-radius: 4px;
-    background: #d1d5db;
-    color: #4b5563;
-    font-size: 11px;
+    background: #dcdfe3;
+    color: #232629;
+    font-size: 12px;
     line-height: 1.4;
 }
 
