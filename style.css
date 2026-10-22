@@ -366,12 +366,9 @@ main {
 }
 
 .skill-icon i {
-    /* width: 48px;
-    height: 48px; */
     display: grid;
     place-items: center;
     font-size: 36px;
-    
 }
 
 .skill-card h3 {
@@ -383,6 +380,10 @@ main {
 
 .skill-icon .tailwind {
     animation: tail-flip 1s ease infinite;
+}
+
+i {
+    font-display: swap;
 }
 
 @keyframes tail-flip {
