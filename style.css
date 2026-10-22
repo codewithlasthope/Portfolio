@@ -181,6 +181,9 @@ header {
     .nav-wrap {
         gap: 2px;
     }
+    #logoText {
+        font-size: 18px;
+    }
 }
 
 .contactBtn {
